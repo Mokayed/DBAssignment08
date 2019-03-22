@@ -40,7 +40,7 @@ Username: hvn
 
 CHANGE MASTER TO MASTER_HOST='104.248.150.20',
 MASTER_USER='slave',
-MASTER_PASSWORD='P@ssword1',
+MASTER_PASSWORD='look on peergrade',
 MASTER_LOG_FILE='mysql-bin.000001',
 MASTER_LOG_POS=154;
 
