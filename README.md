@@ -11,7 +11,7 @@
  
  
  <p>If you want to connect/create a new slave user use the following command</p>
-'''sql
+```sql
 
 CHANGE MASTER TO MASTER_HOST='104.248.150.20',
 MASTER_USER='slave',
@@ -19,4 +19,4 @@ MASTER_PASSWORD='P@ssword1',
 MASTER_LOG_FILE='mysql-bin.000001',
 MASTER_LOG_POS=154;
 
-'''
+```
