@@ -6,31 +6,31 @@
 
 <h2>Slave user</h2>
 
-<pre><code>
+<pre>
  <IP-Adresse: 159.65.199.41
-  </code></pre>
+  </pre>
   
- <pre><code>
+ <pre>
  Username: amsSlaveDroplet
-  </code></pre>
+</pre>
   
- <pre><code>
+ <pre>
   <p>Passworld: look on peergrade</p>
- </code></pre>
+ </pre>
  
  <h2>Master user</h2>
    
- <pre><code>
+ <pre>
  IP-Adresse: 104.248.150.20<p>
- </code></pre>
+</pre>
  
- <pre><code>
+ <pre>
  <p>Username: hvn
- </code></pre>
+ </pre>
  
- <pre><code>
+ <pre>
   <p>Passworld: look on peergrade
- </code></pre>
+ </pre>
  
  <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
  <p>If you want to connect/create a new slave user use the following command  </p>
