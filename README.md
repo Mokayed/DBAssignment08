@@ -4,7 +4,7 @@
 
 <h1>Users <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h1>
 
-<h2>Slave user</h2>
+<h3>Slave user</h3
 
 <pre>
 IP-Adresse: 159.65.199.41
@@ -18,7 +18,7 @@ Username: amsSlaveDroplet
 Passworld: look on peergrade
 </pre>
  
- <h2>Master user</h2>
+ <h3Master user</h3>
    
 <pre>
 IP-Adresse: 104.248.150.20
@@ -32,7 +32,7 @@ Username: hvn
  Passworld: look on peergrade
 </pre>
  
- <h2>Update timing for the tables in Europe </h2>
+ <h3Update timing for the tables in Europe </h3
  
  <pre>
  Time: more then 1 hour.
