@@ -3,7 +3,7 @@
 <h2>Slave user</h2>
  <p>IP-Adresse: 159.65.199.41/<p>
  <p>Username: amsSlaveDroplet</p>
-  <p>Passworld: P@ssword1 </p>
+  <p>Passworld: look on peergrade</p>
  
  <h2>Master user</h2>
  
