@@ -15,21 +15,21 @@
 </pre>
   
 <pre>
-  <p>Passworld: look on peergrade</p>
+  Passworld: look on peergrade
 </pre>
  
  <h2>Master user</h2>
    
 <pre>
- IP-Adresse: 104.248.150.20<p>
+ IP-Adresse: 104.248.150.20
 </pre>
  
 <pre>
- <p>Username: hvn
+ Username: hvn
 </pre>
  
 <pre>
-  <p>Passworld: look on peergrade
+  Passworld: look on peergrade
 </pre>
  
  <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
