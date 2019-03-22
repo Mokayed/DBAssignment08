@@ -5,30 +5,31 @@
 <h1>Users <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h1>
 
 <h2>Slave user</h2>
+
 <pre>
- <IP-Adresse: 159.65.199.41
+IP-Adresse: 159.65.199.41
 </pre>
   
 <pre>
- Username: amsSlaveDroplet
+Username: amsSlaveDroplet
 </pre>
   
 <pre>
-  Passworld: look on peergrade
+Passworld: look on peergrade
 </pre>
  
  <h2>Master user</h2>
    
 <pre>
- IP-Adresse: 104.248.150.20
+IP-Adresse: 104.248.150.20
 </pre>
  
 <pre>
- Username: hvn
+Username: hvn
 </pre>
  
 <pre>
-  Passworld: look on peergrade
+ Passworld: look on peergrade
 </pre>
  
  <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
