@@ -32,6 +32,12 @@ Username: hvn
  Passworld: look on peergrade
 </pre>
  
+ <h2>Update timing for the tables in Europe </h2>
+ 
+ <pre>
+ Time:............................
+</pre>
+ 
  <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
  
  <p>If you want to connect/create a new slave user, instead of "amsSlaveDroplet", use the following qurey to connect to our master database:</p>
