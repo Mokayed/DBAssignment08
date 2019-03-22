@@ -1,5 +1,7 @@
 <h1 align="center">DBAssignment08</h1>
 
+<h1>Users</h1>
+
 <h2>Slave user</h2>
  <p>IP-Adresse: 159.65.199.41<p>
  <p>Username: amsSlaveDroplet</p>
@@ -11,7 +13,7 @@
  <p>Username: hvn</p>
   <p>Passworld: look on peergrade</p>
  
- 
+ <h1>Setup if needed</h1>
  <p>If you want to connect/create a new slave user use the following command  <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji</p>
  
 ```sql
