@@ -13,8 +13,8 @@
  <p>Username: hvn</p>
   <p>Passworld: look on peergrade</p>
  
- <h1>Setup if needed</h1>
- <p>If you want to connect/create a new slave user use the following command  <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji</p>
+ <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
+ <p>If you want to connect/create a new slave user use the following command  </p>
  
 ```sql
 
