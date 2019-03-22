@@ -5,10 +5,9 @@
 <h1>Users <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h1>
 
 <h2>Slave user</h2>
-
-<strong>
+<pre>
  <IP-Adresse: 159.65.199.41
-</strong>
+</pre>
   
 <pre>
  Username: amsSlaveDroplet
@@ -44,6 +43,5 @@ MASTER_LOG_FILE='mysql-bin.000001',
 MASTER_LOG_POS=154;
 
 ```
-<pre><code>Amount of operations to enqueue last item of 10000 was 14
 
-</code></pre>
+
