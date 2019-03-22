@@ -11,6 +11,7 @@
  
  
  <p>If you want to connect/create a new slave user use the following command</p>
+ 
 ```sql
 
 CHANGE MASTER TO MASTER_HOST='104.248.150.20',
