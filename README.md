@@ -1,5 +1,7 @@
 <h1 align="center">DBAssignment08</h1>
 
+<p>This is a solution for the following databases assignment: https://github.com/datsoftlyngby/soft2019spring-databases/blob/master/assignments/assignment8.md </p>
+
 <h1>Users</h1>
 
 <h2>Slave user</h2>
