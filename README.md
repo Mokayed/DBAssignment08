@@ -8,29 +8,29 @@
 
 <pre>
  <IP-Adresse: 159.65.199.41
-  </pre>
+</pre>
   
- <pre>
+<pre>
  Username: amsSlaveDroplet
 </pre>
   
- <pre>
+<pre>
   <p>Passworld: look on peergrade</p>
- </pre>
+</pre>
  
  <h2>Master user</h2>
    
- <pre>
+<pre>
  IP-Adresse: 104.248.150.20<p>
 </pre>
  
- <pre>
+<pre>
  <p>Username: hvn
- </pre>
+</pre>
  
- <pre>
+<pre>
   <p>Passworld: look on peergrade
- </pre>
+</pre>
  
  <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
  <p>If you want to connect/create a new slave user use the following command  </p>
