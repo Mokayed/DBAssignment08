@@ -6,9 +6,9 @@
 
 <h2>Slave user</h2>
 
-<pre>
+<strong>
  <IP-Adresse: 159.65.199.41
-</pre>
+</strong>
   
 <pre>
  Username: amsSlaveDroplet
