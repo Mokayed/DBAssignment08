@@ -2,18 +2,35 @@
 
 <p>This is a solution for the following databases assignment: https://github.com/datsoftlyngby/soft2019spring-databases/blob/master/assignments/assignment8.md </p>
 
-<h1>Users</h1>
+<h1>Users <g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji></h1>
 
 <h2>Slave user</h2>
- <p>IP-Adresse: 159.65.199.41<p>
- <p>Username: amsSlaveDroplet</p>
+
+<pre><code>
+ <IP-Adresse: 159.65.199.41
+  </code></pre>
+  
+ <pre><code>
+ Username: amsSlaveDroplet
+  </code></pre>
+  
+ <pre><code>
   <p>Passworld: look on peergrade</p>
+ </code></pre>
  
  <h2>Master user</h2>
+   
+ <pre><code>
+ IP-Adresse: 104.248.150.20<p>
+ </code></pre>
  
- <p>IP-Adresse: 104.248.150.20<p>
- <p>Username: hvn</p>
-  <p>Passworld: look on peergrade</p>
+ <pre><code>
+ <p>Username: hvn
+ </code></pre>
+ 
+ <pre><code>
+  <p>Passworld: look on peergrade
+ </code></pre>
  
  <h1>Setup if needed <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
  <p>If you want to connect/create a new slave user use the following command  </p>
@@ -27,3 +44,6 @@ MASTER_LOG_FILE='mysql-bin.000001',
 MASTER_LOG_POS=154;
 
 ```
+<pre><code>Amount of operations to enqueue last item of 10000 was 14
+
+</code></pre>
