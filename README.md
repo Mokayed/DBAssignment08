@@ -35,7 +35,7 @@ Username: hvn
  <h2>Update timing for the tables in Europe </h2>
  
  <pre>
- Time:............................
+ Time: more then 1 hour.
 </pre>
  
  <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
