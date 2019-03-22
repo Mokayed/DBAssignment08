@@ -1,7 +1,6 @@
 <h1 align="center">DBAssignment08</h1>
 
 <h2>Slave user</h2>
- login in to that slave user
  <p>IP-Adresse: 159.65.199.41/<p>
  <p>Username: amsSlaveDroplet</p>
   <p>Passworld: P@ssword1 </p>
