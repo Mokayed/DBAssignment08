@@ -11,7 +11,7 @@ IP-Adresse: 159.65.199.41
 </pre>
   
 <pre>
-Username: amsSlaveDroplet
+Username: slaveams
 </pre>
   
 <pre>
