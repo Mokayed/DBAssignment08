@@ -32,7 +32,7 @@ Username: hvn
  Passworld: look on peergrade
 </pre>
 
-<h1>Exercise<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
+<h1>Exercises<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
 
 <h2>You have to set up a mysql database on a droplet in singapore.</h2>
 
