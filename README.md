@@ -38,23 +38,12 @@ Username: hvn
  Time: 1:36 hour.
 </pre>
  
- <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
- 
- <p>If you want to connect/create a new slave user, instead of "amsSlaveDroplet", use the following qurey to connect to our master database:</p>
- 
-```sql
-
-CHANGE MASTER TO MASTER_HOST='104.248.150.20',
-MASTER_USER='slave',
-MASTER_PASSWORD='look on peergrade',
-MASTER_LOG_FILE='mysql-bin.000001',
-MASTER_LOG_POS=154;
-
-```
 <h2>You have to set up a mysql database on a droplet in singapore.</h2>
 
 <p>We purchased a 1 gb server from digitalocean with the location of Singapore. After setting it up we then installed mysql 
+  
 following the instructions</p>
+
 <h2>You have to equip that server with
 the classicmodels database, and
 a user with the right permissions to allow a slave to serve as a backup database</h2>
@@ -73,7 +62,7 @@ binlog_do_db		= classicmodels, bind-address		= 104.248.150.20</p>
 </h2>
 
 <p>We then purchased another droplet (for the slave server) in amsterdam, and also installed mysql on there.
-We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41. Then we logged in with root and took a dump file we had made from the master server, then we made the connection to the slave:
+We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41. Then we logged in with root and took a dump file we had made from the master server, then we made the connection to the slave:</p>
   
   ```sql
   CHANGE MASTER TO MASTER_HOST='104.248.150.20',
@@ -83,10 +72,25 @@ We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41
   ```sql
   START SLAVE;
    ```
-</p>
 
 <h2>Make an insert in one of the tables in singapore, and see how long it takes for the tables in Europe to update.</h2>
+
 <p>we inserted a new office and it took a long time to wait on the slave server</p>
+
 <h2>Make a transaction of several updates on the Singapore database, and verify that no changes happens to the European database until after the commit of the transaction.</h2>
+
 <p>We can verify that we did not see any update changes until we started using commit</p>
 
+ <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
+ 
+ <p>If you want to connect/create a new slave user, instead of "amsSlaveDroplet", use the following qurey to connect to our master database:</p>
+ 
+```sql
+
+CHANGE MASTER TO MASTER_HOST='104.248.150.20',
+MASTER_USER='slave',
+MASTER_PASSWORD='look on peergrade',
+MASTER_LOG_FILE='mysql-bin.000001',
+MASTER_LOG_POS=154;
+
+```
