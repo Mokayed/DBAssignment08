@@ -31,13 +31,7 @@ Username: hvn
 <pre>
  Passworld: look on peergrade
 </pre>
- 
- <h2>Update timing for the tables in Europe </h2>
- 
- <pre>
- Time: 1:36 hour.
-</pre>
- 
+
 <h2>You have to set up a mysql database on a droplet in singapore.</h2>
 
 <p>We purchased a 1 gb server from digitalocean with the location of Singapore. After setting it up we then installed mysql 
@@ -79,7 +73,13 @@ We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41
 
 <h2>Make a transaction of several updates on the Singapore database, and verify that no changes happens to the European database until after the commit of the transaction.</h2>
 
-<p>We can verify that we did not see any update changes until we started using commit</p>
+<p>We can verify that we did not see any update changes until we started using commit.</p>
+
+ <h3>Update timing for the tables in Europe </h3>
+ 
+ <pre>
+ Time: 1:36 hour.
+</pre>
 
  <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
  
