@@ -86,7 +86,7 @@ We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41
 </p>
 
 <h2>Make an insert in one of the tables in singapore, and see how long it takes for the tables in Europe to update.</h2>
-<p>something</p>
+<p>we inserted a new office and it took a long time to wait on the slave server</p>
 <h2>Make a transaction of several updates on the Singapore database, and verify that no changes happens to the European database until after the commit of the transaction.</h2>
-<p>something</p>
+<p>We can verify that we did not see any update changes until we started using commit</p>
 
