@@ -51,5 +51,11 @@ MASTER_LOG_FILE='mysql-bin.000001',
 MASTER_LOG_POS=154;
 
 ```
-
+You have to set up a mysql database on a droplet in singapore.
+You have to equip that server with
+the classicmodels database, and
+a user with the right permissions to allow a slave to serve as a backup database
+You have to set up a database somewhere in Europe (Frankfurt or Amsterdam) which is a replication slave of the Singapore database.
+Make an insert in one of the tables in singapore, and see how long it takes for the tables in Europe to update.
+Make a transaction of several updates on the Singapore database, and verify that no changes happens to the European database until after the commit of the transaction.
 
