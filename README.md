@@ -75,22 +75,9 @@ We changed the mysqld.cnf file to server-id = 2 and bind-address = 159.65.199.41
 
 <p>We can verify that we did not see any update changes until we started using commit.</p>
 
- <h3>Update timing for the tables in Europe </h3>
+ <h3>Update timing for the tables in Europe <g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h3>
  
  <pre>
  Time: 1:36 hour.
 </pre>
 
- <h1>Setup a new salve user<g-emoji class="g-emoji" alias="checkered_flag" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c1.png">🏁</g-emoji></h1>
- 
- <p>If you want to connect/create a new slave user, instead of "amsSlaveDroplet", use the following qurey to connect to our master database:</p>
- 
-```sql
-
-CHANGE MASTER TO MASTER_HOST='104.248.150.20',
-MASTER_USER='slave',
-MASTER_PASSWORD='look on peergrade',
-MASTER_LOG_FILE='mysql-bin.000001',
-MASTER_LOG_POS=154;
-
-```
